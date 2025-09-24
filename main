@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOGO Ecosystem</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-orange-500 to-orange-200 font-sans">
+  <div class="container mx-auto py-10 px-4">
+    <h1 class="text-4xl font-extrabold text-white text-center mb-12 drop-shadow-lg">
+      FOGO Ecosystem
+    </h1>
+
+    <!-- Grid categories -->
+    <div id="ecosystem" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+  </div>
+
+  <script>
+    // ====================
+    // Dữ liệu dự án
+    // ====================
+    const ecosystem = {
+      "DeFi": [
+        { name: "DeFi A", logo: "https://via.placeholder.com/100?text=A" },
+        { name: "DeFi B", logo: "https://via.placeholder.com/100?text=B" },
+        { name: "DeFi C", logo: "https://via.placeholder.com/100?text=C" }
+      ],
+      "NFT": [
+        { name: "NFT A", logo: "https://via.placeholder.com/100?text=NFT1" },
+        { name: "NFT B", logo: "https://via.placeholder.com/100?text=NFT2" },
+        { name: "NFT C", logo: "https://via.placeholder.com/100?text=NFT3" }
+      ],
+      "Memecoin": [
+        { name: "Meme A", logo: "https://via.placeholder.com/100?text=M1" },
+        { name: "Meme B", logo: "https://via.placeholder.com/100?text=M2" },
+        { name: "Meme C", logo: "https://via.placeholder.com/100?text=M3" }
+      ],
+      "Wallet": [
+        { name: "Wallet A", logo: "https://via.placeholder.com/100?text=W1" },
+        { name: "Wallet B", logo: "https://via.placeholder.com/100?text=W2" },
+        { name: "Wallet C", logo: "https://via.placeholder.com/100?text=W3" }
+      ],
+      "Tool": [
+        { name: "Tool A", logo: "https://via.placeholder.com/100?text=T1" },
+        { name: "Tool B", logo: "https://via.placeholder.com/100?text=T2" }
+      ],
+      "Oracle": [
+        { name: "Oracle A", logo: "https://via.placeholder.com/100?text=O1" },
+        { name: "Oracle B", logo: "https://via.placeholder.com/100?text=O2" }
+      ]
+    };
+
+    // ====================
+    // Render UI
+    // ====================
+    const container = document.getElementById("ecosystem");
+
+    Object.entries(ecosystem).forEach(([category, projects]) => {
+      const card = document.createElement("div");
+      card.className = "bg-white/80 rounded-2xl shadow-xl p-6";
+
+      card.innerHTML = `
+        <h2 class="text-2xl font-bold text-orange-600 text-center mb-6">${category}</h2>
+        <div class="grid grid-cols-3 gap-6">
+          ${projects.map(p => `
+            <div class="flex flex-col items-center tilt cursor-pointer">
+              <img src="${p.logo}" alt="${p.name}" 
+                class="w-20 h-20 rounded-full border border-orange-300 shadow-lg" />
+              <p class="text-xs mt-2 font-medium text-gray-700">${p.name}</p>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      container.appendChild(card);
+    });
+
+    // Kích hoạt VanillaTilt
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+      max: 20,
+      speed: 400,
+      glare: true,
+      "max-glare": 0.3,
+    });
+  </script>
+</body>
+</html>
