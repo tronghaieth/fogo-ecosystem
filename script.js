@@ -10,7 +10,7 @@ function initEcosystem() {
 
 /**
  * Lấy dữ liệu JSON từ file
- * @param {string} url - Đường dẫn đến file JSON
+ * @param {string} url
  * @returns {Promise<object>}
  */
 function fetchData(url) {
@@ -21,31 +21,52 @@ function fetchData(url) {
 }
 
 /**
+ * Escape string để tránh XSS khi in vào HTML
+ * @param {string} str
+ * @returns {string}
+ */
+function escapeHtml(str) {
+  if (typeof str !== 'string') return str;
+  return str
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+/**
  * Render toàn bộ ecosystem ra giao diện
- * @param {object} ecosystem - dữ liệu từ ecosystem.json
+ * @param {object} ecosystem
  */
 function renderEcosystem(ecosystem) {
   const container = document.getElementById("ecosystem");
-  container.innerHTML = ""; // clear nếu đã có data cũ
+  container.innerHTML = "";
+
+  // Những category muốn có hiệu ứng glass/frosted
+  const frostedCategories = new Set(["Tool", "Wallet", "Other"]);
 
   Object.entries(ecosystem).forEach(([category, projects]) => {
-    const card = createCategoryCard(category, projects);
+    const card = createCategoryCard(category, projects, frostedCategories.has(category));
     container.appendChild(card);
   });
 }
 
 /**
  * Tạo card theo từng category
- * @param {string} category - tên category (DeFi, NFT,...)
- * @param {Array} projects - danh sách dự án trong category
+ * @param {string} category
+ * @param {Array} projects
+ * @param {boolean} isFrosted - nếu true áp class glass-card
  * @returns {HTMLElement}
  */
-function createCategoryCard(category, projects) {
+function createCategoryCard(category, projects, isFrosted) {
   const card = document.createElement("div");
-  card.className = "bg-white/80 rounded-2xl shadow-xl p-6";
+  // nếu frosted thì dùng lớp .glass-card, ngược lại dùng bg-white/80
+  const baseClass = isFrosted ? "glass-card" : "bg-white/80";
+  card.className = `${baseClass} rounded-2xl shadow-xl p-6`;
 
   card.innerHTML = `
-    <h2 class="text-2xl font-bold text-orange-600 text-center mb-6">${category}</h2>
+    <h2 class="text-2xl font-bold text-orange-600 text-center mb-6">${escapeHtml(category)}</h2>
     <div class="grid grid-cols-3 gap-6">
       ${projects.map(p => createProjectItem(p)).join("")}
     </div>
@@ -55,15 +76,20 @@ function createCategoryCard(category, projects) {
 
 /**
  * Tạo HTML string cho 1 dự án
- * @param {object} project - gồm {name, logo}
+ * @param {object} project - {name, logo}
  * @returns {string}
  */
 function createProjectItem(project) {
+  const name = escapeHtml(project.name || "");
+  const logo = escapeHtml(project.logo || "");
+
+  // Logo được bọc trong .logo-glass để tạo viền thủy tinh
   return `
     <div class="flex flex-col items-center tilt cursor-pointer">
-      <img src="${project.logo}" alt="${project.name}" 
-        class="w-20 h-20 rounded-full border border-orange-300 shadow-lg" />
-      <p class="text-xs mt-2 font-medium text-gray-700">${project.name}</p>
+      <div class="logo-glass">
+        <img src="${logo}" alt="${name}" />
+      </div>
+      <p class="text-xs mt-2 font-medium text-gray-700">${name}</p>
     </div>
   `;
 }
@@ -72,11 +98,12 @@ function createProjectItem(project) {
  * Kích hoạt hiệu ứng VanillaTilt
  */
 function initTiltEffect() {
+  // Nếu muốn thay đổi các option, chỉnh ở đây
   VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 20,
-    speed: 400,
+    max: 18,
+    speed: 450,
     glare: true,
-    "max-glare": 0.3
+    "max-glare": 0.28,
   });
 }
 
