@@ -30,8 +30,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 6px; /* khoảng cách giữa viền và ảnh */
+  padding: 6px;
   border-radius: 9999px;
+  overflow: hidden; /* 🚀 Quan trọng: ẩn phần vuông thừa */
+  
   background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
   border: 1px solid rgba(255,255,255,0.24);
   -webkit-backdrop-filter: blur(6px);
@@ -40,13 +42,12 @@
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-/* Kích thước ảnh bên trong */
 .logo-glass img {
   display: block;
-  border-radius: 9999px;
   width: 80px;
   height: 80px;
   object-fit: cover;
+  border-radius: 9999px; /* giữ bo tròn để khớp với container */
 }
 
 /* Hover effect cho logo */
