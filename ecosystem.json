@@ -1,0 +1,39 @@
+{
+  "DeFi": [
+    { "name": "Ambient", "logo": "https://pbs.twimg.com/profile_images/1686951614656225280/eb1BN7ld_400x400.jpg" },
+    { "name": "Valiant", "logo": "https://pbs.twimg.com/profile_images/1928471746107383808/709ZEKX4_400x400.jpg" },
+    { "name": "Pyron", "logo": "https://pbs.twimg.com/profile_images/1947572629113618432/0lRixqfs_400x400.jpg" },
+    { "name": "FluxBeam", "logo": "https://pbs.twimg.com/profile_images/1659266532898218005/dAQyCgCC_400x400.jpg" },
+    { "name": "Brasa Finance", "logo": "https://pbs.twimg.com/profile_images/1960676086364131328/YKeDpVxV_400x400.jpg" },
+    { "name": "Fogolend", "logo": "https://pbs.twimg.com/profile_images/1962674372545847296/8YTukiyq_400x400.png" }
+  ],
+  "NFT": [
+    { "name": "FOGONFT", "logo": "https://pbs.twimg.com/profile_images/1912252100144209920/kk1xP6SB_400x400.png" },
+    { "name": "Fogalio", "logo": "https://pbs.twimg.com/profile_images/1955235580037488640/sIUgvHOe_400x400.jpg" },
+    { "name": "Rebel Orcs", "logo": "https://pbs.twimg.com/profile_images/1968999338178232320/INFW_fhk_400x400.jpg" },
+    { "name": "Fogangster", "logo": "https://pbs.twimg.com/profile_images/1968168121589506048/oOYOiyGg_400x400.jpg" }
+  ],
+  "Memecoin": [
+    { "name": "Furbo", "logo": "https://pbs.twimg.com/profile_images/1938140689914572800/GECynHOy_400x400.jpg" },
+    { "name": "$USWC", "logo": "https://pbs.twimg.com/profile_images/1963531793413672964/PNcYxMBq_400x400.jpg" },
+    { "name": "VietFogo", "logo": "https://pbs.twimg.com/profile_images/1957444606708310016/MmzlykO1_400x400.jpg" }
+  ],
+  "Wallet": [
+    { "name": "Nightly", "logo": "https://pbs.twimg.com/profile_images/1877282657861545984/QXCCtR7G_400x400.jpg" },
+    { "name": "Infinex", "logo": "https://pbs.twimg.com/profile_images/1882695221806514176/GkH8YOul_400x400.jpg" },
+    { "name": "Phantom", "logo": "https://pbs.twimg.com/profile_images/1675202638026252291/4StTDIF4_400x400.jpg" },
+    { "name": "Backpack", "logo": "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg" },
+    { "name": "Bitget", "logo": "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg" },
+    { "name": "Leap", "logo": "https://pbs.twimg.com/profile_images/1771942341072318464/yrLlUePo_400x400.jpg" }
+  ],
+  "Tool": [
+    { "name": "Rugcheck", "logo": "https://pbs.twimg.com/profile_images/1659290984293756928/VeEo1KYz_400x400.jpg" },
+    { "name": "Metaplex ", "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg" },
+    { "name": "Goldsky", "logo": "https://pbs.twimg.com/profile_images/1775668745077432320/PczlPL8l_400x400.jpg" },
+    { "name": "Solscan", "logo": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg" }
+  ],
+  "Other": [
+    { "name": "Pyth Network", "logo": "https://pbs.twimg.com/profile_images/1948404937857122304/XPBCFnR5_400x400.jpg" },
+    { "name": "Wormhole", "logo": "https://pbs.twimg.com/profile_images/1967993658080133120/VSOooFaD_400x400.jpg" }
+  ]
+}
