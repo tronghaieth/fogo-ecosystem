@@ -1,8 +1,64 @@
-/* Custom hiệu ứng hover */
+/* ---------- Hiệu ứng tilt cũ ---------- */
 .tilt {
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.18s ease-in-out;
+}
+.tilt:hover {
+  transform: scale(1.03);
 }
 
-.tilt:hover {
-  transform: scale(1.05);
+/* ---------- Frosted glass cho card ---------- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.10); /* base semi-transparent */
+  border-radius: 1rem;                  /* rounded-2xl */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  /* giữ padding/spacing bằng class tailwind ở JS */
+}
+
+/* Fallback nếu backdrop-filter không được hỗ trợ */
+@supports not ((-webkit-backdrop-filter: blur(8px)) or (backdrop-filter: blur(8px))) {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.14);
+  }
+}
+
+/* ---------- Logo glass (viền thủy tinh quanh logo) ---------- */
+.logo-glass {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px; /* khoảng cách giữa viền và ảnh */
+  border-radius: 9999px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+  border: 1px solid rgba(255,255,255,0.24);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* Kích thước ảnh bên trong */
+.logo-glass img {
+  display: block;
+  border-radius: 9999px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* Hover effect cho logo */
+.logo-glass:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+}
+
+/* Nhỏ hơn trên mobile */
+@media (max-width: 640px) {
+  .logo-glass img {
+    width: 64px;
+    height: 64px;
+  }
 }
