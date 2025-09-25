@@ -44,7 +44,7 @@ function renderEcosystem(ecosystem) {
   container.innerHTML = "";
 
   // Những category muốn có hiệu ứng glass/frosted
-  const frostedCategories = new Set(["Tool", "Wallet", "Other"]);
+  const frostedCategories = new Set(["Tool", "Wallet", "Other", "Defi", "NFT", "Memecoin"]);
 
   Object.entries(ecosystem).forEach(([category, projects]) => {
     const card = createCategoryCard(category, projects, frostedCategories.has(category));
