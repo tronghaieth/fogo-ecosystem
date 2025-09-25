@@ -26,13 +26,13 @@ function fetchData(url) {
  * @returns {string}
  */
 function escapeHtml(str) {
-  if (typeof str !== 'string') return str;
+  if (typeof str !== "string") return str;
   return str
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#039;');
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 /**
@@ -83,10 +83,10 @@ function createProjectItem(project) {
   const name = escapeHtml(project.name || "");
   const logo = escapeHtml(project.logo || "");
 
-  // Logo được bọc trong .logo-glass để tạo viền thủy tinh
+  // ⚡ Tilt chỉ áp dụng cho .logo-glass, không bao text
   return `
-    <div class="flex flex-col items-center tilt cursor-pointer">
-      <div class="logo-glass">
+    <div class="flex flex-col items-center cursor-pointer">
+      <div class="logo-glass tilt">
         <img src="${logo}" alt="${name}" />
       </div>
       <p class="text-xs mt-2 font-medium text-gray-700">${name}</p>
@@ -98,7 +98,6 @@ function createProjectItem(project) {
  * Kích hoạt hiệu ứng VanillaTilt
  */
 function initTiltEffect() {
-  // Nếu muốn thay đổi các option, chỉnh ở đây
   VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 18,
     speed: 450,
