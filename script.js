@@ -50,11 +50,6 @@ function renderEcosystem(ecosystem) {
     const card = createCategoryCard(category, projects, isFrosted);
     container.appendChild(card);
   });
-
-  Object.entries(ecosystem).forEach(([category, projects]) => {
-    const card = createCategoryCard(category, projects, frostedCategories.has(category));
-    container.appendChild(card);
-  });
 }
 
 /**
