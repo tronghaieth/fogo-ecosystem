@@ -4,7 +4,11 @@
 function initEcosystem() {
   fetchData("ecosystem.json")
     .then(data => renderEcosystem(data))
-    .then(() => initTiltEffect())
+    .then(() => {
+      initTiltEffect();
+      initScrollReveal();
+      animateLogosOnLoad();
+    })
     .catch(err => console.error("Lỗi load ecosystem.json:", err));
 }
 
@@ -105,6 +109,76 @@ function initTiltEffect() {
     "max-glare": 0.28,
   });
 }
+
+function initScrollReveal() {
+  // Khi scroll tới mỗi card
+  ScrollReveal().reveal(".glass-card, .bg-white\\/80", {
+    origin: "bottom",
+    distance: "40px",
+    duration: 800,
+    interval: 200,
+    scale: 0.95,
+    opacity: 0.3
+  });
+}
+
+/**
+ * Animate logo pop effect khi vừa render DOM
+ */
+function animateLogosOnLoad() {
+  const logos = document.querySelectorAll(".logo-glass");
+  logos.forEach((logo, idx) => {
+    // delay khác nhau cho từng logo để stagger
+    const delay = idx * 100;
+
+    anime({
+      targets: logo,
+      scale: [0.6, 1],
+      opacity: [0, 1],
+      easing: "easeOutElastic(1, .8)",
+      delay: delay + 300,
+      duration: 800
+    });
+  });
+}
+
+function addParticleEffectToLogo(logoSelector) {
+  const logo = document.querySelector(logoSelector);
+
+  if (!logo) return;
+
+  // Tạo canvas bên trong logo
+  const canvas = document.createElement("div");
+  canvas.className = "particle-canvas";
+  logo.appendChild(canvas);
+
+  tsParticles.load(canvas, {
+    particles: {
+      number: { value: 0 }, // ban đầu không có hạt
+      color: { value: ["#ffcc00", "#ff66cc", "#66ccff"] },
+      shape: { type: "circle" },
+      opacity: { value: 0.8 },
+      size: { value: { min: 2, max: 5 } },
+      move: { enable: true, speed: 2, direction: "none", random: true },
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "trail" }, // khi hover thì tạo hạt
+      },
+      modes: {
+        trail: {
+          delay: 0.005,
+          quantity: 6,
+        },
+      },
+    },
+    background: { color: "transparent" }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  addParticleEffectToLogo(".logo-glass");
+});
 
 // Gọi khởi chạy
 initEcosystem();
