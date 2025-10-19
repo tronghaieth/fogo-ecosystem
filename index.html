@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FOGO Ecosystem</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
-
-  <!-- ScrollReveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- Anime.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fogo Ecosystem</title>
+  <meta name="description" content="Fogo Ecosystem — curated list of projects and packages." />
+  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="min-h-screen bg-gradient-to-b from-orange-500 to-orange-200 font-sans">
-  <div class="container mx-auto py-10 px-4">
-    <h1 class="text-4xl font-extrabold text-white text-center mb-12 drop-shadow-lg">
-      FOGO Ecosystem
-    </h1>
 
-    <div id="ecosystem" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
-  </div>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <h1 class="site-title">Fogo Ecosystem</h1>
+      <p class="site-subtitle">Curated ecosystem of projects</p>
+      <div class="controls">
+        <label for="search" class="visually-hidden">Search projects</label>
+        <input id="search" type="search" placeholder="Search by name or description..." aria-label="Search projects" />
+        <select id="tagFilter" aria-label="Filter by tag">
+          <option value="">All tags</option>
+        </select>
+      </div>
+    </div>
+  </header>
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-<!-- Twitter Button -->
-<div id="twitter-button">
-  <a href="https://x.com/tronghaieth" target="_blank" rel="noopener noreferrer">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 1800 1800" fill="black">
-      <path d="M714.163 519.284L1160.89 0H1054.5L667.137 450.887L356.545 0H0L468.983 681.821L0 1226.44H106.39L514.45 747.669L843.454 1226.44H1200L714.137 519.284H714.163ZM568.291 686.541L520.545 617.748L144.118 79.6946H305.454L606.229 511.2L653.975 579.994L1055.82 1150.31H894.485L568.291 686.567V686.541Z"/>
-    </svg>
-  </a>
-</div>
+  <main id="app" class="container" role="main">
+    <div id="status" aria-live="polite" class="status">Loading…</div>
+    <section id="list" class="card-grid" aria-live="polite"></section>
+  </main>
 
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small>&copy; 2025 Fogo Ecosystem • <a href="https://github.com/tronghaieth/fogo-ecosystem">Source</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
