@@ -1,40 +1,201 @@
 {
   "DeFi": [
-    { "name": "Ambient", "logo": "https://pbs.twimg.com/profile_images/1686951614656225280/eb1BN7ld_400x400.jpg" },
-    { "name": "Valiant", "logo": "https://pbs.twimg.com/profile_images/1928471746107383808/709ZEKX4_400x400.jpg" },
-    { "name": "Pyron", "logo": "https://pbs.twimg.com/profile_images/1947572629113618432/0lRixqfs_400x400.jpg" },
-    { "name": "FluxBeam", "logo": "https://pbs.twimg.com/profile_images/1659266532898218005/dAQyCgCC_400x400.jpg" },
-    { "name": "Brasa Finance", "logo": "https://pbs.twimg.com/profile_images/1960676086364131328/YKeDpVxV_400x400.jpg" },
-    { "name": "Fogolend", "logo": "https://pbs.twimg.com/profile_images/1962674372545847296/8YTukiyq_400x400.png" }
+    {
+      "name": "Ambient",
+      "logo": "https://pbs.twimg.com/profile_images/1686951614656225280/eb1BN7ld_400x400.jpg",
+      "url": "https://ambient.finance",
+      "twitter": "https://twitter.com/ambient",
+      "discord": "https://discord.gg/ambient"
+    },
+    {
+      "name": "Valiant",
+      "logo": "https://pbs.twimg.com/profile_images/1928471746107383808/709ZEKX4_400x400.jpg",
+      "url": "https://valiant.finance",
+      "twitter": "https://twitter.com/valiant",
+      "discord": "https://discord.gg/valiant"
+    },
+    {
+      "name": "Pyron",
+      "logo": "https://pbs.twimg.com/profile_images/1947572629113618432/0lRixqfs_400x400.jpg",
+      "url": "https://pyron.finance",
+      "twitter": "https://twitter.com/pyron",
+      "discord": "https://discord.gg/pyron"
+    },
+    {
+      "name": "FluxBeam",
+      "logo": "https://pbs.twimg.com/profile_images/1659266532898218005/dAQyCgCC_400x400.jpg",
+      "url": "https://fluxbeam.finance",
+      "twitter": "https://twitter.com/fluxbeam",
+      "discord": "https://discord.gg/fluxbeam"
+    },
+    {
+      "name": "Brasa",
+      "logo": "https://pbs.twimg.com/profile_images/1960676086364131328/YKeDpVxV_400x400.jpg",
+      "url": "https://brasa.finance",
+      "twitter": "https://twitter.com/brasa",
+      "discord": "https://discord.gg/brasa"
+    },
+    {
+      "name": "Fogolend",
+      "logo": "https://pbs.twimg.com/profile_images/1962674372545847296/8YTukiyq_400x400.png",
+      "url": "https://fogolend.finance",
+      "twitter": "https://twitter.com/fogolend",
+      "discord": "https://discord.gg/fogolend"
+    },
+    {
+      "name": "Invariant",
+      "logo": "https://pbs.twimg.com/profile_images/1842564007770693632/pW6YmToL_400x400.jpg",
+      "url": "https://invariant.app",
+      "twitter": "https://x.com/invariant_labs",
+      "discord": "https://discord.com/invite/w6hTeWTJvG"
+    }
   ],
   "NFT": [
-    { "name": "FOGONFT", "logo": "https://pbs.twimg.com/profile_images/1912252100144209920/kk1xP6SB_400x400.png" },
-    { "name": "Fogalio", "logo": "https://pbs.twimg.com/profile_images/1955235580037488640/sIUgvHOe_400x400.jpg" },
-    { "name": "Rebel Orcs", "logo": "https://pbs.twimg.com/profile_images/1968999338178232320/INFW_fhk_400x400.jpg" },
-    { "name": "Fogangster", "logo": "https://pbs.twimg.com/profile_images/1968168121589506048/oOYOiyGg_400x400.jpg" }
-  ],
-  "Memecoin": [
-    { "name": "Furbo", "logo": "https://pbs.twimg.com/profile_images/1938140689914572800/GECynHOy_400x400.jpg" },
-    { "name": "$USWC", "logo": "https://pbs.twimg.com/profile_images/1963531793413672964/PNcYxMBq_400x400.jpg" },
-    { "name": "VietFogo", "logo": "https://pbs.twimg.com/profile_images/1957444606708310016/MmzlykO1_400x400.jpg" }
+    {
+      "name": "FOGONFT",
+      "logo": "https://pbs.twimg.com/profile_images/1912252100144209920/kk1xP6SB_400x400.png",
+      "url": "https://fogonft.io",
+      "twitter": "https://twitter.com/fogonft",
+      "discord": "https://discord.gg/fogonft"
+    },
+    {
+      "name": "Fogalio",
+      "logo": "https://pbs.twimg.com/profile_images/1955235580037488640/sIUgvHOe_400x400.jpg",
+      "url": "https://fogalio.io",
+      "twitter": "https://twitter.com/fogalio",
+      "discord": "https://discord.gg/fogalio"
+    },
+    {
+      "name": "Lil Fogees",
+      "logo": "https://pbs.twimg.com/profile_images/1978303705964216321/gjVk5Qao_400x400.jpg",
+      "twitter": "https://x.com/lilfogees"
+    },
+    {
+      "name": "RebelOrcs",
+      "logo": "https://pbs.twimg.com/profile_images/1968999338178232320/INFW_fhk_400x400.jpg",
+      "url": "https://rebelorcs.io",
+      "twitter": "https://twitter.com/rebelorcs",
+      "discord": "https://discord.gg/rebelorcs"
+    },
+    {
+      "name": "Fogangster",
+      "logo": "https://pbs.twimg.com/profile_images/1968168121589506048/oOYOiyGg_400x400.jpg",
+      "url": "https://fogangster.io",
+      "twitter": "https://twitter.com/fogangster",
+      "discord": "https://discord.gg/fogangster"
+    }
   ],
   "Wallet": [
-    { "name": "Nightly", "logo": "https://pbs.twimg.com/profile_images/1877282657861545984/QXCCtR7G_400x400.jpg" },
-    { "name": "Infinex", "logo": "https://pbs.twimg.com/profile_images/1882695221806514176/GkH8YOul_400x400.jpg" },
-    { "name": "Phantom", "logo": "https://pbs.twimg.com/profile_images/1675202638026252291/4StTDIF4_400x400.jpg" },
-    { "name": "Backpack", "logo": "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg" },
-    { "name": "Bitget", "logo": "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg" },
-    { "name": "Leap", "logo": "https://pbs.twimg.com/profile_images/1771942341072318464/yrLlUePo_400x400.jpg" }
+    {
+      "name": "Nightly",
+      "logo": "https://pbs.twimg.com/profile_images/1877282657861545984/QXCCtR7G_400x400.jpg",
+      "url": "https://nightly.app",
+      "twitter": "https://twitter.com/nightly",
+      "discord": "https://discord.gg/nightly"
+    },
+    {
+      "name": "Infinex",
+      "logo": "https://coinlaunch.space/media/images/7/3/4/4/7344.t1apxd.192x192.jpg",
+      "url": "https://infinex.io",
+      "twitter": "https://twitter.com/infinex",
+      "discord": "https://discord.gg/infinex"
+    },
+    {
+      "name": "Phantom",
+      "logo": "https://docs.phantom.com/favicon.svg",
+      "url": "https://phantom.app",
+      "twitter": "https://twitter.com/phantom",
+      "discord": "https://discord.gg/phantom"
+    },
+    {
+      "name": "Backpack",
+      "logo": "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
+      "url": "https://backpack.app",
+      "twitter": "https://twitter.com/backpack",
+      "discord": "https://discord.gg/backpack"
+    },
+    {
+      "name": "Bitget",
+      "logo": "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
+      "url": "https://bitget.com",
+      "twitter": "https://twitter.com/bitget",
+      "discord": "https://discord.gg/bitget"
+    },
+    {
+      "name": "Leap",
+      "logo": "https://pbs.twimg.com/profile_images/1771942341072318464/yrLlUePo_400x400.jpg",
+      "url": "https://leapwallet.io",
+      "twitter": "https://twitter.com/leapwallet",
+      "discord": "https://discord.gg/leapwallet"
+    }
   ],
   "Tool": [
-    { "name": "Rugcheck", "logo": "https://pbs.twimg.com/profile_images/1659290984293756928/VeEo1KYz_400x400.jpg" },
-    { "name": "Metaplex ", "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg" },
-    { "name": "Goldsky", "logo": "https://pbs.twimg.com/profile_images/1775668745077432320/PczlPL8l_400x400.jpg" },
-    { "name": "Solscan", "logo": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg" }
+    {
+      "name": "Rugcheck",
+      "logo": "https://pbs.twimg.com/profile_images/1659290984293756928/VeEo1KYz_400x400.jpg",
+      "url": "https://rugcheck.xyz",
+      "twitter": "https://twitter.com/rugcheck",
+      "discord": "https://discord.gg/rugcheck"
+    },
+    {
+      "name": "Metaplex",
+      "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg",
+      "url": "https://metaplex.com",
+      "twitter": "https://twitter.com/metaplex",
+      "discord": "https://discord.gg/metaplex"
+    },
+    {
+      "name": "Goldsky",
+      "logo": "https://pbs.twimg.com/profile_images/1775668745077432320/PczlPL8l_400x400.jpg",
+      "url": "https://goldsky.com",
+      "twitter": "https://twitter.com/goldsky",
+      "discord": "https://discord.gg/goldsky"
+    },
+    {
+      "name": "Solscan",
+      "logo": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg",
+      "url": "https://solscan.io",
+      "twitter": "https://twitter.com/solscan",
+      "discord": "https://discord.gg/solscan"
+    }
+  ],
+    "Memecoin": [
+    {
+      "name": "Furbo",
+      "logo": "https://pbs.twimg.com/profile_images/1938140689914572800/GECynHOy_400x400.jpg",
+      "url": "https://furbo.io",
+      "twitter": "https://twitter.com/furbo",
+      "discord": "https://discord.gg/furbo"
+    },
+    {
+      "name": "$USWC",
+      "logo": "https://pbs.twimg.com/profile_images/1963531793413672964/PNcYxMBq_400x400.jpg",
+      "url": "https://uswc.io",
+      "twitter": "https://twitter.com/uswc",
+      "discord": "https://discord.gg/uswc"
+    }
   ],
   "Other": [
-    { "name": "Pyth Network", "logo": "https://pbs.twimg.com/profile_images/1948404937857122304/XPBCFnR5_400x400.jpg" },
-    { "name": "Wormhole", "logo": "https://pbs.twimg.com/profile_images/1967993658080133120/VSOooFaD_400x400.jpg" },
-    { "name": "M0", "logo": "https://pbs.twimg.com/profile_images/1912499168616071168/YwutsRBu_400x400.jpg" }
+    {
+      "name": "Pyth",
+      "logo": "https://pbs.twimg.com/profile_images/1948404937857122304/XPBCFnR5_400x400.jpg",
+      "url": "https://pyth.network",
+      "twitter": "https://twitter.com/pythnetwork",
+      "discord": "https://discord.gg/pythnetwork"
+    },
+    {
+      "name": "Wormhole",
+      "logo": "https://pbs.twimg.com/profile_images/1967993658080133120/VSOooFaD_400x400.jpg",
+      "url": "https://wormhole.com",
+      "twitter": "https://twitter.com/wormhole",
+      "discord": "https://discord.gg/wormhole"
+    },
+    {
+      "name": "M0",
+      "logo": "https://pbs.twimg.com/profile_images/1912499168616071168/YwutsRBu_400x400.jpg",
+      "url": "https://m0.io",
+      "twitter": "https://twitter.com/m0",
+      "discord": "https://discord.gg/m0"
+    }
   ]
 }
