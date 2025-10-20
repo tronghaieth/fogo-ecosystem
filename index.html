@@ -1,38 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FOGO Ecosystem</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
-
-  <!-- ScrollReveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- Anime.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fogo Ecosystem</title>
+  <meta name="description" content="Fogo Ecosystem — curated list of projects and packages." />
+  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="min-h-screen bg-gradient-to-b from-orange-500 to-orange-200 font-sans">
-  <div class="container mx-auto py-10 px-4">
-    <h1 class="text-4xl font-extrabold text-white text-center mb-12 drop-shadow-lg">
-      FOGO Ecosystem
-    </h1>
 
-    <div id="ecosystem" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
-  </div>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="home-link_homeLink__PRJ_E">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 74 24" class="home-link_wordmark__XFLCW">
+          <path d="M14.724 0h-8.36L5.166 4.804h-3.61L.038 10.898a1.28 1.28 0 0 0 1.238 1.591h3.056L1.465 24l9.744-10.309c.771-.816.195-2.162-.925-2.162h-4.66l1.435-5.765h7.863l1.038-4.172A1.28 1.28 0 0 0 14.723 0ZM26.09 18.052h-2.896V5.58h9.086v2.525h-6.19v2.401h5.636v2.525H26.09zm13.543.185q-1.924 0-3.365-.793a5.6 5.6 0 0 1-2.24-2.233q-.8-1.439-.8-3.394c0-1.304.267-2.451.8-3.41a5.55 5.55 0 0 1 2.24-2.225q1.439-.785 3.365-.785c1.285 0 2.42.259 3.381.777a5.47 5.47 0 0 1 2.233 2.218q.793 1.439.793 3.425c0 1.324-.268 2.437-.801 3.403a5.56 5.56 0 0 1-2.24 2.233q-1.44.785-3.366.785zm.016-2.525q1.677 0 2.586-1.062.91-1.062.91-2.833c0-1.182-.304-2.137-.91-2.84q-.908-1.055-2.602-1.055c-1.128 0-1.984.351-2.595 1.054q-.915 1.056-.916 2.825c0 1.18.306 2.14.916 2.85q.915 1.062 2.61 1.061Zm13.703 2.525q-1.818 0-3.203-.808a5.65 5.65 0 0 1-2.163-2.256q-.776-1.447-.776-3.34c0-1.263.267-2.423.8-3.388a5.64 5.64 0 0 1 2.256-2.249q1.454-.8 3.38-.801 1.586 0 2.803.547a5 5 0 0 1 1.986 1.563q.77 1.017.971 2.432H56.39q-.153-.938-.878-1.463-.723-.523-1.863-.523-1.077.001-1.878.476-.8.479-1.231 1.356-.431.876-.43 2.078c0 .801.148 1.515.445 2.11a3.27 3.27 0 0 0 1.262 1.379q.816.484 1.925.485.817 0 1.454-.253.639-.254 1.009-.693a1.5 1.5 0 0 0 .37-.993v-.37H53.51V11.31h3.865q1.015 0 1.525.485.506.484.507 1.455v4.804h-2.648V16.73h-.077q-.448.754-1.278 1.132t-2.048.377l-.003-.001Zm13.911 0q-1.925 0-3.366-.793a5.6 5.6 0 0 1-2.24-2.233q-.8-1.439-.8-3.394c0-1.304.267-2.451.8-3.41a5.55 5.55 0 0 1 2.24-2.225q1.44-.785 3.366-.785c1.284 0 2.42.259 3.38.777a5.47 5.47 0 0 1 2.234 2.218q.792 1.439.792 3.425c0 1.324-.268 2.437-.801 3.403a5.56 5.56 0 0 1-2.24 2.233q-1.439.785-3.365.785zm.015-2.525q1.677 0 2.587-1.062.908-1.062.909-2.833c0-1.182-.304-2.137-.91-2.84q-.908-1.055-2.601-1.055c-1.129 0-1.985.351-2.595 1.054q-.916 1.056-.916 2.825c0 1.18.305 2.14.916 2.85q.915 1.062 2.61 1.061"></path>
+        </svg>
+      </div>
+      <p class="site-subtitle">ECOSYSTEM</p>
+      <div class="controls">
+        <label for="search" class="visually-hidden">Search projects</label>
+        <input id="search" type="search" placeholder="Search ..." aria-label="Search projects" />
+        <select id="tagFilter" aria-label="Filter by tag">
+          <option value="">All tags</option>
+        </select>
+      </div>
+    </div>
+  </header>
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-<!-- Twitter Button -->
-<div id="twitter-button">
-  <a href="https://x.com/tronghaieth" target="_blank" rel="noopener noreferrer">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 1800 1800" fill="black">
-      <path d="M714.163 519.284L1160.89 0H1054.5L667.137 450.887L356.545 0H0L468.983 681.821L0 1226.44H106.39L514.45 747.669L843.454 1226.44H1200L714.137 519.284H714.163ZM568.291 686.541L520.545 617.748L144.118 79.6946H305.454L606.229 511.2L653.975 579.994L1055.82 1150.31H894.485L568.291 686.567V686.541Z"/>
-    </svg>
-  </a>
-</div>
+  <main id="app" class="container" role="main">
+    <div id="status" aria-live="polite" class="status">Loading…</div>
+    <section id="list" class="card-grid" aria-live="polite"></section>
+  </main>
 
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small>&copy; 2025 Fogo Ecosystem • <a href="https://x.com/tronghaieth">Source</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
