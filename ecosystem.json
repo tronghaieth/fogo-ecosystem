@@ -1,51 +1,49 @@
 {
   "DeFi": [
     {
-      "name": "Ambient",
+      "name": "AMBIENT",
       "logo": "https://pbs.twimg.com/profile_images/1686951614656225280/eb1BN7ld_400x400.jpg",
       "url": "https://ambient.finance",
-      "twitter": "https://twitter.com/ambient",
-      "discord": "https://discord.gg/ambient"
+      "twitter": "https://x.com/ambient_finance",
+      "discord": "https://discord.gg/ambient_finance"
     },
     {
-      "name": "Valiant",
+      "name": "VALIANT",
       "logo": "https://pbs.twimg.com/profile_images/1928471746107383808/709ZEKX4_400x400.jpg",
-      "url": "https://valiant.finance",
-      "twitter": "https://twitter.com/valiant",
-      "discord": "https://discord.gg/valiant"
+      "url": "https://valiant.trade/",
+      "twitter": "https://x.com/ValiantTrade",
+      "discord": "https://discord.com/invite/valianttrade"
     },
     {
-      "name": "Pyron",
+      "name": "PYRON",
       "logo": "https://pbs.twimg.com/profile_images/1947572629113618432/0lRixqfs_400x400.jpg",
-      "url": "https://pyron.finance",
-      "twitter": "https://twitter.com/pyron",
-      "discord": "https://discord.gg/pyron"
+      "url": "https://app.pyron.fi",
+      "twitter": "https://x.com/Pyronfi",
+      "discord": "https://discord.pyron.fi/"
     },
     {
-      "name": "FluxBeam",
+      "name": "FLUXBEAM",
       "logo": "https://pbs.twimg.com/profile_images/1659266532898218005/dAQyCgCC_400x400.jpg",
-      "url": "https://fluxbeam.finance",
-      "twitter": "https://twitter.com/fluxbeam",
-      "discord": "https://discord.gg/fluxbeam"
+      "url": "https://www.fluxbeam.xyz/",
+      "twitter": "https://x.com/FluxBeamDEX"
     },
     {
-      "name": "Brasa",
+      "name": "BRASA",
       "logo": "https://pbs.twimg.com/profile_images/1960676086364131328/YKeDpVxV_400x400.jpg",
       "url": "https://brasa.finance",
-      "twitter": "https://twitter.com/brasa",
-      "discord": "https://discord.gg/brasa"
+      "twitter": "https://x.com/BrasaFinance"
     },
     {
-      "name": "Fogolend",
+      "name": "FOGOLEND",
       "logo": "https://pbs.twimg.com/profile_images/1962674372545847296/8YTukiyq_400x400.png",
-      "url": "https://fogolend.finance",
-      "twitter": "https://twitter.com/fogolend",
-      "discord": "https://discord.gg/fogolend"
+      "url": "https://fogolend.com/",
+      "twitter": "https://x.com/fogolend",
+      "discord": "https://discord.gg/wVX4JN8zpx"
     },
     {
-      "name": "Invariant",
+      "name": "INVARIANT",
       "logo": "https://pbs.twimg.com/profile_images/1842564007770693632/pW6YmToL_400x400.jpg",
-      "url": "https://invariant.app",
+      "url": "https://linktr.ee/invariantapp",
       "twitter": "https://x.com/invariant_labs",
       "discord": "https://discord.com/invite/w6hTeWTJvG"
     }
@@ -54,148 +52,136 @@
     {
       "name": "FOGONFT",
       "logo": "https://pbs.twimg.com/profile_images/1912252100144209920/kk1xP6SB_400x400.png",
-      "url": "https://fogonft.io",
-      "twitter": "https://twitter.com/fogonft",
-      "discord": "https://discord.gg/fogonft"
+      "url": "https://fogo.io",
+      "twitter": "https://x.com/FogoNFT"
     },
     {
-      "name": "Fogalio",
+      "name": "FOGALIO",
       "logo": "https://pbs.twimg.com/profile_images/1955235580037488640/sIUgvHOe_400x400.jpg",
-      "url": "https://fogalio.io",
-      "twitter": "https://twitter.com/fogalio",
+      "url": "https://linktr.ee/fogalio",
+      "twitter": "https://x.com/FogalioFG",
       "discord": "https://discord.gg/fogalio"
     },
     {
-      "name": "Lil Fogees",
+      "name": "LIL FOGEES",
       "logo": "https://pbs.twimg.com/profile_images/1978303705964216321/gjVk5Qao_400x400.jpg",
       "twitter": "https://x.com/lilfogees"
     },
     {
-      "name": "RebelOrcs",
+      "name": "REBELORCS",
       "logo": "https://pbs.twimg.com/profile_images/1968999338178232320/INFW_fhk_400x400.jpg",
-      "url": "https://rebelorcs.io",
-      "twitter": "https://twitter.com/rebelorcs",
-      "discord": "https://discord.gg/rebelorcs"
+      "twitter": "https://x.com/RebelOrcsNft"
     },
     {
-      "name": "Fogangster",
+      "name": "FOGANGSTER",
       "logo": "https://pbs.twimg.com/profile_images/1968168121589506048/oOYOiyGg_400x400.jpg",
-      "url": "https://fogangster.io",
-      "twitter": "https://twitter.com/fogangster",
-      "discord": "https://discord.gg/fogangster"
+      "url": "https://fogangster.com/",
+      "twitter": "https://x.com/FogangsterNFT"
     }
   ],
   "Wallet": [
     {
-      "name": "Nightly",
+      "name": "NIGHTLY",
       "logo": "https://pbs.twimg.com/profile_images/1877282657861545984/QXCCtR7G_400x400.jpg",
-      "url": "https://nightly.app",
-      "twitter": "https://twitter.com/nightly",
-      "discord": "https://discord.gg/nightly"
+      "url": "https://nightly.app/",
+      "twitter": "https://x.com/Nightly_app",
+      "discord": "https://discord.nightly.app"
     },
     {
-      "name": "Infinex",
+      "name": "INFINEX",
       "logo": "https://coinlaunch.space/media/images/7/3/4/4/7344.t1apxd.192x192.jpg",
-      "url": "https://infinex.io",
-      "twitter": "https://twitter.com/infinex",
+      "url": "https://infinex.xyz/",
+      "twitter": "https://x.com/infinex",
       "discord": "https://discord.gg/infinex"
     },
     {
-      "name": "Phantom",
+      "name": "PHANTOM",
       "logo": "https://docs.phantom.com/favicon.svg",
-      "url": "https://phantom.app",
-      "twitter": "https://twitter.com/phantom",
-      "discord": "https://discord.gg/phantom"
+      "url": "https://phantom.com",
+      "twitter": "https://x.com/phantom"
     },
     {
-      "name": "Backpack",
+      "name": "BACKPACK",
       "logo": "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
       "url": "https://backpack.app",
-      "twitter": "https://twitter.com/backpack",
+      "twitter": "https://x.com/Backpack",
       "discord": "https://discord.gg/backpack"
     },
     {
-      "name": "Bitget",
+      "name": "BITGET",
       "logo": "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
-      "url": "https://bitget.com",
-      "twitter": "https://twitter.com/bitget",
-      "discord": "https://discord.gg/bitget"
+      "url": "https://web3.bitget.com/en",
+      "twitter": "https://x.com/BitgetWallet"
     },
     {
-      "name": "Leap",
+      "name": "LEAP",
       "logo": "https://pbs.twimg.com/profile_images/1771942341072318464/yrLlUePo_400x400.jpg",
-      "url": "https://leapwallet.io",
-      "twitter": "https://twitter.com/leapwallet",
-      "discord": "https://discord.gg/leapwallet"
+      "url": "https://www.leapwallet.io/",
+      "twitter": "https://x.com/leap_wallet"
     }
   ],
   "Tool": [
     {
-      "name": "Rugcheck",
+      "name": "RUGCHECK",
       "logo": "https://pbs.twimg.com/profile_images/1659290984293756928/VeEo1KYz_400x400.jpg",
-      "url": "https://rugcheck.xyz",
-      "twitter": "https://twitter.com/rugcheck",
-      "discord": "https://discord.gg/rugcheck"
+      "url": "https://rugcheck.xyz/",
+      "twitter": "https://x.com/Rugcheckxyz"
     },
     {
-      "name": "Metaplex",
+      "name": "METAPLEX",
       "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg",
-      "url": "https://metaplex.com",
-      "twitter": "https://twitter.com/metaplex",
-      "discord": "https://discord.gg/metaplex"
+      "url": "https://www.metaplex.com/",
+      "twitter": "https://x.com/metaplex",
+      "discord": "https://discord.com/invite/metaplex"
     },
     {
-      "name": "Goldsky",
-      "logo": "https://pbs.twimg.com/profile_images/1775668745077432320/PczlPL8l_400x400.jpg",
-      "url": "https://goldsky.com",
-      "twitter": "https://twitter.com/goldsky",
-      "discord": "https://discord.gg/goldsky"
-    },
-    {
-      "name": "Solscan",
+      "name": "SOLSCAN",
       "logo": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg",
       "url": "https://solscan.io",
-      "twitter": "https://twitter.com/solscan",
-      "discord": "https://discord.gg/solscan"
+      "twitter": "https://x.com/solscanofficial"
     }
   ],
     "Memecoin": [
     {
-      "name": "Furbo",
+      "name": "$FURBO",
       "logo": "https://pbs.twimg.com/profile_images/1938140689914572800/GECynHOy_400x400.jpg",
-      "url": "https://furbo.io",
-      "twitter": "https://twitter.com/furbo",
+      "url": "https://furbocoin.meme/",
+      "twitter": "https://x.com/furbocoin",
       "discord": "https://discord.gg/furbo"
     },
     {
       "name": "$USWC",
       "logo": "https://pbs.twimg.com/profile_images/1963531793413672964/PNcYxMBq_400x400.jpg",
-      "url": "https://uswc.io",
-      "twitter": "https://twitter.com/uswc",
-      "discord": "https://discord.gg/uswc"
+      "twitter": "https://x.com/uswc_official",
+      "discord": "https://discord.gg/yHmtTekeEn"
     }
   ],
   "Other": [
     {
-      "name": "Pyth",
+      "name": "PYTH",
       "logo": "https://pbs.twimg.com/profile_images/1948404937857122304/XPBCFnR5_400x400.jpg",
-      "url": "https://pyth.network",
-      "twitter": "https://twitter.com/pythnetwork",
-      "discord": "https://discord.gg/pythnetwork"
+      "url": "https://www.pyth.network/",
+      "twitter": "https://x.com/PythNetwork",
+      "discord": "https://discord.com/invite/pythnetwork"
     },
     {
-      "name": "Wormhole",
+      "name": "WORMHOLE",
       "logo": "https://pbs.twimg.com/profile_images/1967993658080133120/VSOooFaD_400x400.jpg",
       "url": "https://wormhole.com",
-      "twitter": "https://twitter.com/wormhole",
-      "discord": "https://discord.gg/wormhole"
+      "twitter": "https://x.com/wormhole",
+      "discord": "https://discord.gg/wormholecrypto"
     },
     {
       "name": "M0",
       "logo": "https://pbs.twimg.com/profile_images/1912499168616071168/YwutsRBu_400x400.jpg",
-      "url": "https://m0.io",
-      "twitter": "https://twitter.com/m0",
-      "discord": "https://discord.gg/m0"
+      "url": "https://www.m0.org/",
+      "twitter": "https://x.com/m0"
+    },
+    {
+      "name": "GOLDSKY",
+      "logo": "https://pbs.twimg.com/profile_images/1775668745077432320/PczlPL8l_400x400.jpg",
+      "url": "https://goldsky.com/",
+      "twitter": "https://x.com/goldskyio"
     }
   ]
 }
