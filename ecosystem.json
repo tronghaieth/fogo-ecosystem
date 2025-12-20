@@ -46,8 +46,16 @@
       "url": "https://linktr.ee/invariantapp",
       "twitter": "https://x.com/invariant_labs",
       "discord": "https://discord.com/invite/w6hTeWTJvG"
+    },
+    {
+      "name": "IGNITION",
+      "logo": "https://pbs.twimg.com/profile_images/1983790769711542278/FiVe66W4_400x400.png",
+      "twitter": "https://x.com/ignitionxyz"
     }
   ],
+
+
+  
   "NFT": [
     {
       "name": "FOGONFT",
@@ -92,6 +100,12 @@
       "url": "https://furbocoin.meme/",
       "twitter": "https://x.com/furbocoin",
       "discord": "https://discord.gg/furbo"
+    },
+    {
+      "name": "MOONIT",
+      "logo": "https://pbs.twimg.com/profile_images/1977787786229952512/oS_xLEGE_400x400.jpg",
+      "url": "https://moon.it/",
+      "twitter": "https://x.com/moonit"
     }
   ],
   "Wallet": [
@@ -114,6 +128,12 @@
       "logo": "https://academy-public.coinmarketcap.com/optimized-uploads/45fb0f8c182c4a529027efc58b34d3c9.jpg",
       "url": "https://metamask.io/",
       "twitter": "https://x.com/MetaMask"
+    },
+    {
+      "name": "OKX",
+      "logo": "https://play-lh.googleusercontent.com/N00SbjLJJrhg4hbdnkk3Llk2oedNNgCU29DvR9cpep7Lr0VkzvBkmLqajWNgFb0d7IOO=w240-h480-rw",
+      "url": "https://x.com/wallet",
+      "twitter": "https://web3.okx.com/"
     },
     {
       "name": "PHANTOM",
@@ -139,6 +159,12 @@
       "logo": "https://www.solflare.com/wp-content/uploads/2024/11/App-Icon.svg",
       "url": "https://www.solflare.com/",
       "twitter": "https://x.com/solflare/"
+    },
+    {
+      "name": "LEAP",
+      "logo": "https://play-lh.googleusercontent.com/0BY-XzNk_6R3DS_oNZfRI-x5L2PDgX8BDo7OL8kPDCKaQi0YzXGrYKWaT2lbOkqqGrs=w240-h480-rw",
+      "url": "https://www.leapwallet.io/",
+      "twitter": "https://x.com/leap_wallet"
     }
   ],
   "Tool": [
@@ -207,6 +233,12 @@
       "url": "https://www.metaplex.com/",
       "twitter": "https://x.com/metaplex",
       "discord": "https://discord.com/invite/metaplex"
+    },
+    {
+      "name": "SPHERE",
+      "logo": "https://pbs.twimg.com/profile_images/1961110656649695232/D51T-B2Q_400x400.jpg",
+      "url": "https://spherepay.co/",
+      "twitter": "https://x.com/sphere_labs"
     }
   ]
 }
