@@ -103,6 +103,12 @@
       "discord": "https://discord.gg/infinex"
     },
     {
+      "name": "Metamask",
+      "logo": "https://academy-public.coinmarketcap.com/optimized-uploads/45fb0f8c182c4a529027efc58b34d3c9.jpg",
+      "url": "https://metamask.io/",
+      "twitter": "https://x.com/MetaMask"
+    },
+    {
       "name": "PHANTOM",
       "logo": "https://docs.phantom.com/favicon.svg",
       "url": "https://phantom.com",
@@ -122,10 +128,10 @@
       "twitter": "https://x.com/BitgetWallet"
     },
     {
-      "name": "LEAP",
-      "logo": "https://pbs.twimg.com/profile_images/1771942341072318464/yrLlUePo_400x400.jpg",
-      "url": "https://www.leapwallet.io/",
-      "twitter": "https://x.com/leap_wallet"
+      "name": "Solflare",
+      "logo": "https://www.solflare.com/wp-content/uploads/2024/11/App-Icon.svg",
+      "url": "https://www.solflare.com/",
+      "twitter": "https://x.com/solflare/"
     }
   ],
   "Tool": [
