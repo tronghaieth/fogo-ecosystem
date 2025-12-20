@@ -2,7 +2,7 @@
   "DeFi": [
     {
       "name": "AMBIENT",
-      "logo": "https://pbs.twimg.com/profile_images/1686951614656225280/eb1BN7ld_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1978840358357172224/zqMaUPKh_400x400.jpg",
       "url": "https://ambient.finance",
       "twitter": "https://x.com/ambient_finance",
       "discord": "https://discord.gg/ambient_finance"
@@ -56,16 +56,16 @@
       "twitter": "https://x.com/FogoNFT"
     },
     {
+      "name": "LIL FOGEES",
+      "logo": "https://pbs.twimg.com/profile_images/1985476111061696512/X8Gfxe3E_400x400.png",
+      "twitter": "https://x.com/lilfogees"
+    },
+    {
       "name": "FOGALIO",
       "logo": "https://pbs.twimg.com/profile_images/1955235580037488640/sIUgvHOe_400x400.jpg",
       "url": "https://linktr.ee/fogalio",
       "twitter": "https://x.com/FogalioFG",
       "discord": "https://discord.gg/fogalio"
-    },
-    {
-      "name": "LIL FOGEES",
-      "logo": "https://pbs.twimg.com/profile_images/1978303705964216321/gjVk5Qao_400x400.jpg",
-      "twitter": "https://x.com/lilfogees"
     },
     {
       "name": "REBELORCS",
@@ -82,7 +82,7 @@
   "Wallet": [
     {
       "name": "NIGHTLY",
-      "logo": "https://pbs.twimg.com/profile_images/1877282657861545984/QXCCtR7G_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1995590155537682432/bGTODPb__400x400.jpg",
       "url": "https://nightly.app/",
       "twitter": "https://x.com/Nightly_app",
       "discord": "https://discord.nightly.app"
@@ -109,7 +109,7 @@
     },
     {
       "name": "BITGET",
-      "logo": "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
+      "logo": "https://ml.globenewswire.com/Resource/Download/ecf155a5-9f58-493e-9c11-f181290d2e5a?size=2",
       "url": "https://web3.bitget.com/en",
       "twitter": "https://x.com/BitgetWallet"
     },
@@ -144,16 +144,10 @@
     "Memecoin": [
     {
       "name": "$FURBO",
-      "logo": "https://pbs.twimg.com/profile_images/1938140689914572800/GECynHOy_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1989783532886003712/79kfLF13_400x400.jpg",
       "url": "https://furbocoin.meme/",
       "twitter": "https://x.com/furbocoin",
       "discord": "https://discord.gg/furbo"
-    },
-    {
-      "name": "$USWC",
-      "logo": "https://pbs.twimg.com/profile_images/1963531793413672964/PNcYxMBq_400x400.jpg",
-      "twitter": "https://x.com/uswc_official",
-      "discord": "https://discord.gg/yHmtTekeEn"
     }
   ],
   "Other": [
