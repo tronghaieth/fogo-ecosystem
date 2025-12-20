@@ -79,12 +79,19 @@
       "twitter": "https://x.com/FogangsterNFT"
     }
   ],
-      "Gaming": [
+      "Gaming & Meme": [
     {
       "name": "Fogo Fishing",
       "logo": "https://pbs.twimg.com/profile_images/1988453450221314048/tR5v-2yd_400x400.jpg",
       "url": "https://fogofishing.com/",
       "twitter": "https://x.com/FogoFishing"
+    },
+    {
+      "name": "$FURBO",
+      "logo": "https://pbs.twimg.com/profile_images/1989783532886003712/79kfLF13_400x400.jpg",
+      "url": "https://furbocoin.meme/",
+      "twitter": "https://x.com/furbocoin",
+      "discord": "https://discord.gg/furbo"
     }
   ],
   "Wallet": [
@@ -160,15 +167,7 @@
       "twitter": "https://x.com/birdeye_so"
     }
   ],
-    "Memecoin": [
-    {
-      "name": "$FURBO",
-      "logo": "https://pbs.twimg.com/profile_images/1989783532886003712/79kfLF13_400x400.jpg",
-      "url": "https://furbocoin.meme/",
-      "twitter": "https://x.com/furbocoin",
-      "discord": "https://discord.gg/furbo"
-    }
-  ],
+  
   "Infra & Other": [
     {
       "name": "PYTH",
