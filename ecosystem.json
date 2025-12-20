@@ -79,6 +79,14 @@
       "twitter": "https://x.com/FogangsterNFT"
     }
   ],
+      "Gaming": [
+    {
+      "name": "Fogo Fishing",
+      "logo": "https://pbs.twimg.com/profile_images/1988453450221314048/tR5v-2yd_400x400.jpg",
+      "url": "https://fogofishing.com/",
+      "twitter": "https://x.com/FogoFishing"
+    }
+  ],
   "Wallet": [
     {
       "name": "NIGHTLY",
@@ -128,17 +136,22 @@
       "twitter": "https://x.com/Rugcheckxyz"
     },
     {
-      "name": "METAPLEX",
-      "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg",
-      "url": "https://www.metaplex.com/",
-      "twitter": "https://x.com/metaplex",
-      "discord": "https://discord.com/invite/metaplex"
-    },
-    {
       "name": "SOLSCAN",
       "logo": "https://pbs.twimg.com/profile_images/1613087186932596736/cJiIPd2s_400x400.jpg",
       "url": "https://solscan.io",
       "twitter": "https://x.com/solscanofficial"
+    },
+    {
+      "name": "ChainSpec",
+      "logo": "https://cdn.prod.website-files.com/6513d1ba8db38482a7e47f3e/6597e49ba52c2cd5f9c6dd52_chainspect.png",
+      "url": "https://chainspect.app/chain/fogo",
+      "twitter": "https://x.com/chainspect_app"
+    },
+    {
+      "name": "BirdEye",
+      "logo": "https://files.readme.io/0aa2d7a-Birdeye_Logo_White_logomark_w_padding_600x600.png",
+      "url": "https://birdeye.so/fogo",
+      "twitter": "https://x.com/birdeye_so"
     }
   ],
     "Memecoin": [
@@ -150,7 +163,7 @@
       "discord": "https://discord.gg/furbo"
     }
   ],
-  "Other": [
+  "Infra & Other": [
     {
       "name": "PYTH",
       "logo": "https://pbs.twimg.com/profile_images/1948404937857122304/XPBCFnR5_400x400.jpg",
@@ -182,6 +195,13 @@
       "logo": "https://pbs.twimg.com/profile_images/1676570590549876736/lPTFCZIf_400x400.jpg",
       "url": "https://xlabs.xyz/",
       "twitter": "https://x.com/xLabsxyz"
+    },
+    {
+      "name": "METAPLEX",
+      "logo": "https://pbs.twimg.com/profile_images/1946251392319922176/QkVtoZ5h_400x400.jpg",
+      "url": "https://www.metaplex.com/",
+      "twitter": "https://x.com/metaplex",
+      "discord": "https://discord.com/invite/metaplex"
     }
   ]
 }
