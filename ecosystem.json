@@ -108,6 +108,18 @@
       "discord": "https://discord.gg/furbo"
     },
     {
+      "name": "$CHASE",
+      "logo": "https://pbs.twimg.com/profile_images/2001424043598082048/aCkZKc_x_400x400.jpg",
+      "url": "https://fogoscan.com/token/GPK71dya1H975s3U4gYaJjrRCp3BGyAD8fmZCtSmBCcz",
+      "twitter": "https://x.com/ChaseFogo"
+    },
+    {
+      "name": "$ABBY",
+      "logo": "https://pbs.twimg.com/media/G80WxymagAAnr13?format=png&name=small",
+      "url": "https://fogoscan.com/token/CJhu547fYCaPE45J6rfV6egAf3f5A3sBHp1D1MV8wy12",
+      "twitter": "https://x.com/ChaseFogo"
+    },
+    {
       "name": "MOONIT",
       "logo": "https://pbs.twimg.com/profile_images/1977787786229952512/oS_xLEGE_400x400.jpg",
       "url": "https://moon.it/",
